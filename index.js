@@ -21,10 +21,7 @@ writeCards(names);
 console.log(writeCards(cards));
 
 function countDown() {
-    for (let countDown = 10; countDown <11; countDown--) {
-    while (countDown <11, countDown > -1) {
-        console.log(countDown --);
+    for (let countDown = 10; countDown > -1; countDown--) {
+        console.log(countDown);
     }
 }
-}
-countDown;
